@@ -1,0 +1,48 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.carousel-container {
+  padding: 20px; /* Add padding to the carousel container */
+  background-color: #f0f0f0; /* Background color for the carousel */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.carousel-slide {
+  padding: 20px; /* Add padding to each slide */
+  border-radius: 8px; /* Add border-radius to give a rounded corner effect */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Add box-shadow for depth */
+}
+
+.slider-container {
+  width: 80%; /* Adjust the width as needed */
+  margin: 0 auto; /* Center the slider horizontally */
+}
+
+.slider-image {
+  width: 100%;
+  height: auto;
+  border-radius: 10px; /* Add rounded corners to the images */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+/* Customize the dots (pagination indicators) */
+.slick-dots {
+  bottom: 20px; /* Adjust the distance from the bottom */
+}
+
+/* Customize the active dot */
+.slick-active button:before {
+  color: #007bff; /* Change the color of the active dot */
+}
+
+.slider-image {
+  width: 800px; /* Set the fixed width */
+  height: 300px; /* Set the fixed height */
+  margin-left:480px;
+  background-size: contain;
+  border-radius: 10px; /* Add rounded corners to the images */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
